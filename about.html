@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About.html page</title>
+  <meta
+      name="description"
+      content="Ntombizile is a front-end engineer based in South Africa."
+    />
+    <title>About Ntombizile - Ntombizile Mabuso</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins:wght@500;700&amp;display=swap"
       rel="stylesheet"
@@ -23,6 +27,36 @@
     ></script>
     <script src="https://kit.fontawesome.com/fde16303f6.js" crossorigin="anonymous"></script>
    <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Ntombizile's Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Ntombizile's Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Ntombizile">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Ntombizile's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Ntombizile">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class=" content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -36,13 +70,66 @@
             everything is well explained, homework and deadlines are good for
             keep focus
           </p>
-          <a href="" class="btn">See my projects</a>
+          <a href="/work.html" class="btn">See my projects</a>
           </div>
           <div class="col-lg-6 mt-4 ">
           <img src="images/patricia.png" class="img-fluid" alt=""/>
-          
-        </div>
+           </div>
       </div>
+    </div>
+    <footer class="container"> 
+<div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn mt-3" title="Contact Ntombizile"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <a
+            href="mailto:ntombi@gmail.com"
+            class="email-link"
+            title="Email Ntombizile"
+            >ntombi@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/ntombi"
+            targert="_blank"
+            title="Github Profile"
+          >
+            <i class="fab fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/ntombi"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fab fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.fa-twitter.com/ntombi"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fab fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          👩🏽‍💻 This project was coded by Ntombizile Mabuso, and it is
+          <a
+            href="https://github.com/Ntombizilee/homepage-hero/"
+            target="_blank"
+          >
+            open-sourced.
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
